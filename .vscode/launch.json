@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch dash",
+            "request": "launch",
+            "mainClass": "dash",
+            "projectName": "payroll_e3e335d1"
+        },
+        {
+            "type": "java",
+            "name": "Launch dashboard",
+            "request": "launch",
+            "mainClass": "dashboard",
+            "projectName": "payroll_e3e335d1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch LoginFrame",
+            "request": "launch",
+            "mainClass": "LoginFrame",
+            "projectName": "payroll_e3e335d1"
+        }
+    ]
+}
